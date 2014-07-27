@@ -6,8 +6,13 @@
     .nav-pills {
         margin-top:10px;
         margin-bottom:0;
-        font-size:16px;
-        
+        font-size:18px;
+
+        .fa{
+          font-size:20px;
+        }
+
+
         > li {
             margin-left:10px;
             > a {
@@ -18,9 +23,11 @@
                 &:hover, &:focus {
                     background-color: @navigation-active-background;
                 }
+
+
             }
             &.dropdown.open.active {
-                > a:hover, > a:focus {            
+                > a:hover, > a:focus {
                     background-color: @navigation-active-background;
                 }
             }
@@ -83,7 +90,7 @@
                 }
             }
         }
-    }    
+    }
 
     .navbar-collapse {
         box-shadow:none;
@@ -123,10 +130,10 @@
 
     .tales-nav {
         box-shadow:none;
-        background-color: @mobilenav-background; 
+        background-color: @mobilenav-background;
         float:left !important;
         width:100%;
-       
+
         margin-top:30px;
         margin-bottom:20px;
 
@@ -134,16 +141,16 @@
 
         .navbar-collapse {
             max-height: none;
-        }    
- 
+        }
+
         .nav-pills {
             > li {
                 margin-left:0;
-                float:none;                
+                float:none;
                 > a {
                     // border-top:@mobilenav-line 1px solid;
                     margin-left: 40px;
-                    margin-right: 40px;                    
+                    margin-right: 40px;
                 }
 
                 a {
@@ -168,7 +175,7 @@
                 &.dropdown.open.active {
                     > a:hover, > a:focus {
                         background:transparent;
-                    }                    
+                    }
                 }
             }
 
@@ -184,7 +191,7 @@
                 padding-bottom:7px;
             }
 
-            .dropdown-toggle  {   
+            .dropdown-toggle  {
                 .caret {
                     float: right;
                     margin-top: 14px;
@@ -199,7 +206,7 @@
                 &.open {
                     background-color: @mobilenav-active-background;
                     .dropdown-toggle {
-                        
+
                     }
                 }
             }
@@ -229,7 +236,7 @@
                     }
                 }
             }
-        }         
+        }
 
         .navbar-nav .open .dropdown-menu > li > a {
             padding-top: 9px;

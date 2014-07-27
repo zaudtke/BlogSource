@@ -4,7 +4,7 @@
     color:@breadcrumb-link;
     float:left;
     margin-top:19px;
-
+    font-size:20px;
     a {
         color:@breadcrumb-link;
 
@@ -68,7 +68,7 @@
         .border-left-radius(0px);
         margin-left: -4px;
         outline: none;
-         
+
         .input-placeholder(@searchbox-text);
 
         &:focus{
@@ -91,8 +91,8 @@
             }
         }
     }
-    
-    li:before { 
+
+    li:before {
         content: "";
         border-color: transparent transparent transparent @tales-list-bulletpoint;
         border-style: solid;
@@ -102,7 +102,7 @@
         left: -20px;
         top: 15px;
         position: relative;
-    }    
+    }
 
     .footer & {
         margin-top:-6px;
@@ -115,7 +115,7 @@
                 padding-bottom:5px;
             }
 
-            &:before { 
+            &:before {
                 left: -21px;
                 border-color: transparent transparent transparent @footer-text;
             }
@@ -213,7 +213,7 @@
     header {
         #gradient > .vertical(@widget-gradient-start, @widget-gradient-end);
         border:1px @vertical-separator solid;
-                
+
         h3 {
             font-size:24px;
             padding:10px 20px 3px 20px;
@@ -353,7 +353,7 @@
                 background-color: @blog-meta-background;
                 color:@blog-meta-text;
 
-                a { 
+                a {
                     color:@blog-meta-text;
                 }
 
@@ -395,7 +395,7 @@
         p {
             margin-bottom:20px;
         }
-    }    
+    }
 }
 
 /* The round social icons including the animations */
@@ -428,9 +428,9 @@
             top:0;
             left:0;
             width:135px;
-            height:135px;            
+            height:135px;
          }
-    }    
+    }
 
     i {
         color:@social-icon;
@@ -438,7 +438,7 @@
         position:absolute;
         top:36px;
         left:37px;
-        
+
         &.fa-facebook {
             left:50px;
         }
@@ -452,7 +452,7 @@
     &:first-child {
         margin-left:0;
     }
-    
+
     @media @medium {
         .span6 & {margin-left:15px;}
     }
@@ -462,28 +462,28 @@
         .span6 & {margin-left:-8px;}
         width:122px;
         height:122px;
-        
+
         .inner-circle {
             position:absolute;
             top:11px;
             left:11px;
             display:block;
             height:100px;
-            width:100px;        
+            width:100px;
         }
 
         &:hover {
             .inner-circle {
                 width:122px;
-                height:122px;            
+                height:122px;
              }
-        }    
+        }
 
         i {
             font-size:50px;
             top:36px;
             left:37px;
-            
+
             &.fa-facebook {
                 left:50px;
             }
@@ -496,7 +496,7 @@
         width:81px;
         height:81px;
         margin-bottom:40px;
-        
+
         .inner-circle {
             position:absolute;
             top:8px;
@@ -512,21 +512,21 @@
                 height:65px;
                 width:65px;
                 top:8px;
-                left:8px;                
+                left:8px;
              }
-        }    
+        }
 
         i {
             font-size:35px;
             top:25px;
             left:25px;
-            
+
             &.fa-facebook {
                 left:32px;
             }
             &.fa-github-alt {
                 top:22px;
-            }            
+            }
         }
     }
 
@@ -559,7 +559,7 @@ aside.comments, aside.create-comment {
         width:515px;
         @media @small {width:415px;}
         @media @smaller {width:100%;}
-        
+
         margin-left:auto;
         margin-right:auto;
         border-top-color:@blog-comments-seeparator;
@@ -572,13 +572,13 @@ aside.comments, aside.create-comment {
         }
         font-weight:normal;
         margin-bottom:130px;
-    }    
+    }
 }
 
 aside.comments {
     .comment {
         margin:130px 0 0 0;
-        
+
         &.reply {
             margin-left:100px;
         }
@@ -598,7 +598,7 @@ aside.comments {
                     line-height:27px;
                     a {
                         color:@link-primary;
-                    }                
+                    }
                 }
 
                 a {
@@ -614,7 +614,7 @@ aside.comments {
 }
 
 /* Add commment form */
-.create-comment, 
+.create-comment,
 .contact-form {
 
     input, textarea {
@@ -714,7 +714,7 @@ aside.comments {
             margin-top:10px;
         }
         margin-bottom:75px;
-        
+
     }
     img {
         // text-align:center;
@@ -723,4 +723,28 @@ aside.comments {
     .bold {
         font-weight:bold;
     }
+}
+
+/* Custom AZ */
+.findme{
+  float:right;
+  display:inline-block;
+  min-width: 210px;
+  margin-bottom:16px;
+  margin-top:16px;
+  text-align: right;
+
+  a{
+    i{
+      color:@subheader-social;
+      margin-right:20px;
+    }
+
+  }
+  a:hover{
+    color:@masthead-text;
+    i{
+      color:@masthead-text;
+    }
+  }
 }
