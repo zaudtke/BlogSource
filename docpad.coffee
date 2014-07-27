@@ -3,11 +3,11 @@ docpadConfig = {
   templateData:
       site:
         # Properties
-        url:"http://localhost:9778/"
-        title: "Al Zaudtke"
+        url:"http://zaudtke.github.io/"
+        title: "@AlZaudtke"
         author: "Al Zaudtke"
         email: "zaudtke@gmail.com"
-        discription: "I Has No Catchy Phrase for here"
+        catchphrase: "I Has No Catchy Phrase for here"
 
         styles:[
           "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
@@ -30,8 +30,6 @@ docpadConfig = {
         else
           @site.title
 
-      getPreparedDescription: ->
-        @document.subTitle or @site.description
 
 
 

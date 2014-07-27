@@ -22,10 +22,10 @@ html ->
         header ->
           div class:"widewrapper masthead", ->
             div class:"container", ->
-              div style:"float:left", ->
-                a id:"logo", href: @site.url, "@AlZaudtke"
-                br ->
-                span style:"padding-left:50px;", "Making Shit Up"
+              div class:"logo", ->
+                a  href: @site.url, @site.title
+
+                div class:"catchphrase", @site.catchphrase
 
               div id:"mobile-nav-toggle", class:"pull-right",->
                 a href:"#", "data-toggle":"collapse", "data-target":".tales-nav .navbar-collapse",->

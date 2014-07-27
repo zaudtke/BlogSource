@@ -8,14 +8,26 @@ html,body{
 
 /* Masthead is the upper part of the header, containing logo and navigation*/
 .masthead {
-    padding-top:55px;
-    padding-bottom:45px;
+    padding-top:40px;
+    padding-bottom:40px;
 
-    #logo {
+    .logo {
         float:left;
         /*AZ Customize*/
-        color:@masthead-text;
         font-size:32px;
+
+        a{
+          color:@masthead-text;
+        }
+    }
+
+    .catchphrase{
+      margin-top:25px;
+      padding-left:100px;
+      font-size:18px;
+    //  color:@copyright-background;
+    color:#ccc;
+      font-style:italic;
     }
 }
 
