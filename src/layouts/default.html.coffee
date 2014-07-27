@@ -51,7 +51,7 @@ html ->
                 @document.title
 
               div class:"tales-searchbox hidden-xs", ->
-                form role:"search", action:"http://google.com/search", method="get", "accept-charset":"utf-8", ->
+                form role:"search", action:"http://google.com/search", method:"get", "accept-charset":"utf-8", ->
                   button class:"searchbutton", type:"submit", ->
                     i class:"fa fa-search"
                   input class:"searchfield", name:"q", type:"search", placeholder:"Search"
