@@ -31,14 +31,18 @@ docpadConfig = {
           @site.title
 
 
-
-
+  collections:
+    pages: (database) ->
+      database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
 
 
   plugins:
     ghpages:
       deployRemote: 'target'
       deployBranch: 'master'
+
+    cleanurls:
+      trailingSlashes: true
 }
 
 module.exports = docpadConfig

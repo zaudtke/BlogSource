@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "docpad": "~6.69.0",
+    "docpad-plugin-cleanurls": "~2.7.0",
     "docpad-plugin-coffeekup": "~2.2.0",
     "docpad-plugin-coffeescript": "~2.4.0",
     "docpad-plugin-eco": "~2.0.3",
@@ -15,6 +16,7 @@
     "docpad-plugin-grunt": "~2.1.1",
     "docpad-plugin-less": "~2.4.1",
     "docpad-plugin-marked": "~2.2.1",
+    "docpad-plugin-partials": "~2.9.1",
     "grunt": "^0.4.5",
     "safeps": "^2.2.12"
   },

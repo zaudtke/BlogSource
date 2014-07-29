@@ -6,7 +6,7 @@ html ->
     meta "http-equiv": "content-type", "content": "text/html; charset=utf-8"
     meta "http-equiv": "X-UA-Compatible", "content": "IE=edge,chrome=1"
 
-    meta "name": "description", "content": @getPreparedDescription()
+    meta "name": "description", "content": "my site description"
     meta "name": "keywords", "content":""
     meta "name": "author", "content": @site.author
     text @getBlock('meta').toHTML()
@@ -27,23 +27,7 @@ html ->
 
                 div class:"catchphrase", @site.catchphrase
 
-              div id:"mobile-nav-toggle", class:"pull-right",->
-                a href:"#", "data-toggle":"collapse", "data-target":".tales-nav .navbar-collapse",->
-                  i class:"fa fa-bars"
-
-              nav class:"pull-right tales-nav",->
-                div class:"collapse navbar-collapse", ->
-                  ul class:"nav nav-pills navbar-nav",->
-                    li ->
-                      a href:"/Blog", "Blog"
-                    li ->
-                      a href:"/About", "About"
-                    li class:"hidden-xs", ->
-                      a href:"https://twitter.com/AlZaudtke", ->
-                        i class:"fa fa-twitter"
-                    li class:"hidden-xs", ->
-                      a href:"https://github.com/zaudtke", ->
-                        i class:"fa fa-github"
+              @partial('menu')
 
           div class:"widewrapper subheader", ->
             div class:"container", ->
