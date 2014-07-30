@@ -1,5 +1,5 @@
 ---
-title: Articles
+title: Blog
 layout: default
 pageOrder: 1
 ---

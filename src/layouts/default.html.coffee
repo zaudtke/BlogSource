@@ -28,18 +28,18 @@ html ->
                 div class:"catchphrase", @site.catchphrase
 
               @partial('menu')
+# Not sure if I want sub header or not
+#          div class:"widewrapper subheader", ->
+#            div class:"container", ->
+#              div class:"tales-breadcrumb", ->
+#                @document.title
 
-          div class:"widewrapper subheader", ->
-            div class:"container", ->
-              div class:"tales-breadcrumb", ->
-                @document.title
-
-              div class:"tales-searchbox hidden-xs", ->
-                form role:"search", action:"http://google.com/search", method:"get", "accept-charset":"utf-8", ->
-                  button class:"searchbutton", type:"submit", ->
-                    i class:"fa fa-search"
-                  input class:"searchfield", name:"q", type:"search", placeholder:"Search"
-                  input type:"hidden", name:"q", value:"site:zaudtke.com"
+#              div class:"tales-searchbox hidden-xs", ->
+#                form role:"search", action:"http://google.com/search", method:"get", "accept-charset":"utf-8", ->
+#                  button class:"searchbutton", type:"submit", ->
+#                    i class:"fa fa-search"
+#                  input class:"searchfield", name:"q", type:"search", placeholder:"Search"
+#                  input type:"hidden", name:"q", value:"site:zaudtke.com"
 
 
 
