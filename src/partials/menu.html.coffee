@@ -3,7 +3,7 @@ div id:"mobile-nav-toggle", class:"pull-right",->
     href:"#"
     data:
       toggle:"collapse"
-      target:".tales-nave .navbar-collapse"
+      target:".tales-nav .navbar-collapse"
     ->
       i class:"fa fa-bars"
 

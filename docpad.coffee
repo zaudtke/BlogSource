@@ -4,7 +4,7 @@ docpadConfig = {
       site:
         # Properties
         url:"http://zaudtke.github.io/"
-        title: "@AlZaudtke"
+        title: "Al Zaudtke"
         author: "Al Zaudtke"
         email: "zaudtke@gmail.com"
         catchphrase: "I Has No Catchy Phrase for here"
