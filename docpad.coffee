@@ -29,7 +29,7 @@ docpadConfig = {
           "#{@document.title} | #{@site.title}"
         else
           @site.title
-
+      
 
   collections:
     pages: (database) ->
