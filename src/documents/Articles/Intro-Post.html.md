@@ -2,7 +2,7 @@
 "title": "Introduction Post"
 "layout": "post"
 "banner": "Introduction Post"
-"date" : "20014-8-11"
+"date" : "2014-8-11"
 "subTitle" : "A hello world blog post to launch the site."
 ---
 
