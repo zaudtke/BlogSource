@@ -30,6 +30,7 @@ docpadConfig = {
         else
           @site.title
 
+      moment: require('moment')
 
   collections:
     pages: (database) ->
