@@ -3,7 +3,7 @@ docpadConfig = {
   templateData:
       site:
         # Properties
-        url:"http://zaudtke.github.io/"
+        url:"http://zaudtke.com/"
         title: "Al Zaudtke"
         author: "Al Zaudtke"
         email: "zaudtke@gmail.com"
