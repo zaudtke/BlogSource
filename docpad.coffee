@@ -29,12 +29,14 @@ docpadConfig = {
           "#{@document.title} | #{@site.title}"
         else
           @site.title
-      
+
 
   collections:
     pages: (database) ->
       database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
 
+    posts: (database) ->
+      database.findAllLive({layout: 'post', isDraft: $exists: false}, [{date: -1}])
 
   plugins:
     ghpages:
@@ -42,6 +44,7 @@ docpadConfig = {
       deployBranch: 'master'
 
     cleanurls:
+      static: true
       trailingSlashes: true
 }
 

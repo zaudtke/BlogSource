@@ -30,17 +30,17 @@ html ->
 
               @partial('menu')
 # Not sure if I want sub header or not
-          div class:"widewrapper subheader hidden-xs", ->
-            div class:"container", ->
-              div class:"tales-breadcrumb", ->
-                @document.banner
+#          if @document.layout != "post"
+#            div class:"widewrapper subheader hidden-xs", ->
+#              div class:"container", ->
+#                div class:"tales-breadcrumb", ->
+#                  @document.banner
 
-              div class:"tales-searchbox", ->
-                form role:"search", action:"http://google.com/search", method:"get", "accept-charset":"utf-8", ->
-                  button class:"searchbutton", type:"submit", ->
-                    i class:"fa fa-search"
-                  input class:"searchfield", name:"q", type:"search", placeholder:"Search"
-                  input type:"hidden", name:"q", value:"site:zaudtke.com"
+#                div class:"tales-searchbox", ->
+#                  form role:"search", action:"http://google.com/search", method:"get", "accept-charset":"utf-8", ->
+#                    button class:"searchbutton", type:"submit", ->
+#                    input class:"searchfield", name:"q", type:"search", placeholder:"Search"
+#                    input type:"hidden", name:"q", value:"site:zaudtke.com"
 
 
 
