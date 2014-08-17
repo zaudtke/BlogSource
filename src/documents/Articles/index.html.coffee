@@ -3,7 +3,6 @@ title: Articles
 layout: default
 pageOrder: 1
 subTitle: 'Some things that I''ve written'
-keywords:[]
 ---
 
 currentYear = ""

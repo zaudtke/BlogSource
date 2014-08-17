@@ -3,7 +3,6 @@ title: About
 layout: default
 pageOrder: 2
 subTitle: 'A little bit about me'
-keywords:[]
 ---
 
 h2 "My name is Al, but you probably already knew that"
