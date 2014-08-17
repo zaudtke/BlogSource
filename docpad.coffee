@@ -8,6 +8,8 @@ docpadConfig = {
         author: "Al Zaudtke"
         email: "zaudtke@gmail.com"
         catchphrase: "I Has No Catchy Phrase for here"
+        description: "Sharing thoughts on development with Al Zaudtke."
+        keywords:"Al Zaudtke, zaudtke, development"
 
         styles:[
           "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
@@ -29,6 +31,13 @@ docpadConfig = {
           "#{@document.title} | #{@site.title}"
         else
           @site.title
+
+      getPreparedDescription: ->
+        @document.subTitle or @site.description
+
+      getPreparedKeywords: ->
+        @site.keywords.concat(@document.keywords or []).join(', ')
+
 
       moment: require('moment')
 

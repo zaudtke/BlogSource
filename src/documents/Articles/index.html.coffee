@@ -2,7 +2,8 @@
 title: Articles
 layout: default
 pageOrder: 1
-banner: 'Some things that I''ve written'ß
+subTitle: 'Some things that I''ve written'
+keywords:[]
 ---
 
 currentYear = ""

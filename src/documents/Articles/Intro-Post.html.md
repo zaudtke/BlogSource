@@ -4,6 +4,7 @@
 "banner": "Introduction Post"
 "date" : "2014-8-11"
 "subTitle" : "A hello world blog post to launch the site."
+"keywords": ['Static Site', 'Atom', 'DocPad', 'Grunt', 'GitHub Pages', 'Starting Blog']
 ---
 
 # Introduction Blog Post
