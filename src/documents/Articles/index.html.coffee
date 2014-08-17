@@ -7,6 +7,14 @@ banner: 'Some things that I''ve written'ß
 
 currentYear = ""
 div class:"container", ->
+	div class:"row", ->
+		div  ->
+			h2 "Archive"
+			div class:"col-md-6", ->
+				@partial('search')
+
+
+
 	for document in @getCollection('posts').toJSON()
 		date = @moment(document.date)
 		year = date.format('YYYY')

@@ -15,7 +15,7 @@ nav class:"pull-right tales-nav",->
         li
           class: ('active' if @document.url is document.url)
           ->
-            a href: document.url, document.title
+            a href: document.url, document.title 
 
       li class:"hidden-xs", ->
         a href:"https://twitter.com/AlZaudtke", ->
