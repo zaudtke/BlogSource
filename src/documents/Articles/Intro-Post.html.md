@@ -7,7 +7,7 @@
 "keywords": ['Static Site', 'Atom', 'DocPad', 'Grunt', 'GitHub Pages', 'Starting Blog']
 ---
 
-# Introduction Blog Post
+## Introduction Blog Post
 
 ### AKA Hello World
 
