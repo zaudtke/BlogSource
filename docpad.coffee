@@ -15,7 +15,7 @@ docpadConfig = {
           "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
           "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"
           "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
-          "http://fonts.googleapis.com/css?family=Open+Sans:400,600|PT+Serif:400,400italic"
+          "https://fonts.googleapis.com/css?family=Open+Sans:400,600|PT+Serif:400,400italic"
           "/styles/styles.min.css"
         ]
 

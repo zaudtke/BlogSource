@@ -12,8 +12,7 @@ html ->
     text @getBlock('meta').toHTML()
     meta "name": "viewport", "content": "width=device-width, initial-scale=1.0"
 
-    ie "lt IE 9", ->
-      script async: yes, src: "http://html5shim.googlecode.com/svn/trunk/html5.js"
+    
 
     text @getBlock('styles').add(@site.styles).toHTML()
 
