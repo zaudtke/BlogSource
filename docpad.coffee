@@ -26,11 +26,9 @@ docpadConfig = {
         ]
 
       #Helper functions
-      getPreparedTitle: ->
-        if @document.title
-          "#{@document.title} | #{@site.title}"
-        else
-          @site.title
+      getTitle: ->
+        @document.title
+          
 
       getPreparedDescription: ->
         @document.subTitle or @site.description

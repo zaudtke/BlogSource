@@ -20,7 +20,7 @@ module.exports = function(grunt){
 
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.registerTask('default', ['cssmin', 'clean']);
+    grunt.registerTask('default', ['cssmin']);
 
 
 }

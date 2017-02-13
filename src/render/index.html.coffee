@@ -1,6 +1,6 @@
 ---
 layout: 'default'
-title: 'My Blog'
+title: 'Al Zaudtke'
 banner: 'Home of Al Zaudtke'
 ---
 
