@@ -3,7 +3,9 @@
     <!-- Head -->
     <%- partial('_partial/headtag') %>
     <body>
-        Layout Body
-        <%- body %>
+        <div id="pagewrapper">
+            <%- partial('_partial/header') %>
+            <%- body %>
+        </div>
     </body>
 </html>
