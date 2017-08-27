@@ -53,8 +53,7 @@ footer a{
 }
 
 .hero-section {
-    background: url("/images/hero.jpg") 50% no-repeat;
-    background-size: cover;
+
     height: 30em;
     text-align: center;
     display: -webkit-flex;
