@@ -72,4 +72,18 @@ footer a{
     text-shadow: 1px 1px 2px #0a0a0a;
   }
   
-  
+  .blog-excerpt-title{
+      margin-bottom: 1rem;
+  }    
+  .blog-excerpt-title a{
+      color:#5b6268;
+      text-decoration: none;
+  }
+  .blog-excerpt-title a:hover{
+    color:#1EAEDB;
+    text-decoration: none;
+}
+  .blog-excerpt-meta{
+      color: #999;
+      margin-bottom:1rem;
+  }
