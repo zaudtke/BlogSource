@@ -87,6 +87,9 @@ footer a{
       color: #999;
       margin-bottom:1rem;
   }
+  .blog-excerpt-meta i{
+      margin-left:1em;
+  }
 /* Pagination */
 .pager {
     margin-bottom: 60px;
@@ -111,4 +114,10 @@ footer a{
 }
 .pager-older {
     float: right;;
+}
+
+.tag-link{
+    color: #999;
+    margin-bottom: 1rem;
+    text-decoration: none;
 }

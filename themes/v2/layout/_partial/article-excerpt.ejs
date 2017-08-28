@@ -7,7 +7,18 @@
         </h4>
         <!-- Date and Author -->
         <p class="blog-excerpt-meta">
-           <em> <%= item.date.format(config.date_format) %></em>
+           <em>
+                <%= item.date.format(config.date_format) %>
+                <% if(item.tags){ %>
+                    <i class="fa fa-tags" aria-hidden="true"></i>
+                    <%- list_tags(item.tags, {
+                        show_count: false,
+                        style: "flow",
+                        separator: ", "
+                    }) %>
+                    
+                <% } %>
+            </em>
         </p>
         <!-- Content -->
         <%- item.excerpt || item.content %>

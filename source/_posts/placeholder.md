@@ -2,6 +2,8 @@
 title: My placeholder Post
 date: 08-27-2017
 tags:
+- architecture
+- f-sharp
 ---
 Bacon ipsum dolor amet rump pork shankle cow turkey, tongue andouille tri-tip. Beef turkey beef ribs bacon pork chop. Kevin ham beef picanha turkey brisket venison prosciutto meatball <!-- more -->strip steak doner. Prosciutto brisket t-bone drumstick kielbasa frankfurter porchetta swine short ribs tri-tip shankle. Alcatra rump picanha, filet mignon landjaeger kevin meatball kielbasa ham hock brisket pastrami andouille ham boudin. Porchetta kielbasa cupim, tongue pastrami ground round fatback ham meatloaf tenderloin turkey tri-tip rump venison. Short ribs doner shankle andouille ham pancetta.
 
