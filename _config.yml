@@ -82,3 +82,10 @@ deploy:
 # Include/Exclude Files/Folders
 include:
 - .nojekyll
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
