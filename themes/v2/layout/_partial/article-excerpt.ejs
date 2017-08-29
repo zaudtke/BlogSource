@@ -9,7 +9,7 @@
         <p class="blog-excerpt-meta">
            <em>
                 <%= item.date.format(config.date_format) %>
-                <% if(item.tags){ %>
+                <% if(item.tags && item.tags.length){ %>
                     <i class="fa fa-tags" aria-hidden="true"></i>
                     <%- list_tags(item.tags, {
                         show_count: false,
