@@ -40,6 +40,7 @@ h4{
 
 article{
     margin-top: 2em;
+    margin-bottom:5em;
 }
 
 footer{
@@ -125,4 +126,13 @@ footer a{
     color: #999;
     margin-bottom: 1rem;
     text-decoration: none;
+}
+
+.additionalLinks{
+    margin-top: -3em;
+    line-height: 2em;
+}
+.additionalLinks i{
+    margin-left: 1em;
+    margin-right: 1em;
 }
