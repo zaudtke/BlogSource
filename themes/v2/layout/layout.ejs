@@ -10,7 +10,7 @@
     </body>
 
 <!-- Disqus Comments -->
-<% if (theme.disqus_shortname && page.comments){ %>
+<% if (is_post() && theme.disqus_shortname && page.comments){ %>
     <script type="text/javascript">
         (function() {
         var d = document, s = d.createElement('script');
