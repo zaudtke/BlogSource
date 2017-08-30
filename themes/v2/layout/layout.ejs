@@ -8,4 +8,17 @@
         </div>
         <%- partial('_partial/footer') %>
     </body>
+
+<!-- Disqus Comments -->
+<% if (theme.disqus_shortname && page.comments){ %>
+    <script type="text/javascript">
+        (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://zaudtke.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+    </script>
+<% } %>
 </html>
