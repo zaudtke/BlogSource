@@ -65,6 +65,9 @@
                 break;
         }
     }
+   function prettifyUrl(){
+        return url.substring(0,url.lastIndexOf("/"));
+   }
 %>
 
 
@@ -74,9 +77,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Language" content="en">
     <meta name="description" content="<%- config.description %>">
-    <meta name="author" content="<%- config.author %>"
+    <meta name="author" content="<%- config.author %>">
     
-    <!-- TODO: Add og and twitter card meta -->
+    <meta property="og:title" content="<%= title %>">
+    <meta property="og:url" content="<%= prettifyUrl()  %>">
+    <meta property="og:description" content="<%= page.excerpt || config.description %>">
+    <meta property="og:site_name" content="<%- config.title">
+
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="<%= title %>">
+    <meta name="twitter:description" content="<%= page.excerpt || config.description %>">
+    <meta name="twitter:url" content="<%= prettifyUrl()  %>">
+    <meta name="twitter:site" content="@alzaudtke">
+
+
 
     <title><%= title %></title>
     <link 
