@@ -77,7 +77,10 @@ theme: v2
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:zaudtke/zaudtke.github.io.git
+  branch: master
+  message: "Site Published: {{ now('YYYY-MM-DD HH:mm:ss') }}"
 
 # Include/Exclude Files/Folders
 include:
