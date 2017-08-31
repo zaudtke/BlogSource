@@ -7,7 +7,7 @@ herosubheader: ...that I have given
 ---
 
 <div class="muted">
-_Hero image courtesy of [ThatConference](https://www.thatconference.com) and [martinezMedia](http://www.martinezmedia.net/) https://www.flickr.com/photos/thatconference/35703480233/in/album-72157684772275604/_
+_Photo courtesy of [ThatConference](https://www.thatconference.com) and [martinezMedia](http://www.martinezmedia.net/) https://www.flickr.com/photos/thatconference/35703480233/in/album-72157684772275604/_
 </div>
 
 #### Online Interviews
