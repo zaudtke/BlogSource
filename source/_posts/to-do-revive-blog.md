@@ -8,7 +8,7 @@ herosubheader: ...revive blog
 tags:
 ---
 
-Well it's been just over 3 years since I launched this blog.  In that time I wrote one post, yes, one post.  That's not good.  I knew I wanted a static site.  I went down the path, and got it all set up, but it just didn't work for me.  So the site sat idle.  I also wasn't happy with how it looked, and wanted something else.  Lastly, I decided I didn't need or want Bootstrap, so the search began.
+Well it's been just over 3 years since I launched this blog.  In that time I wrote one post, yes, one post.  That's not good.  I knew I wanted a static site.  I went down the path, and got it all set up, but it just didn't work for me.  So the site sat idle.  I also wasn't happy with how it looked, and wanted something else.  Lastly, I decided I didn't need or want Bootstrap, so the search began.<!-- more -->
 
 Since then, I've given 1 public presentation and numerous internal (at work) presentations.  I'm hoping to be able to do more of these, and am hoping that by keeping up with this project, it will help me with that goal.
 
