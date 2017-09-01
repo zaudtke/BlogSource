@@ -1,0 +1,22 @@
+<%- partial('_partial/hero', {image: page.herourl, header: page.heroheader, subtitle:page.herosubheader}) %>         
+
+<article>
+<div class="container">
+        <p class="blog-excerpt-meta">
+                <em>
+                     <%= page.date.format(config.date_format) %>
+                     <% if(page.tags && page.tags.length){ %>
+                         <i class="fa fa-tags" aria-hidden="true"></i>
+                         <%- list_tags(page.tags, {
+                             show_count: false,
+                             style: "flow",
+                             separator: ", "
+                         }) %>
+                         
+                     <% } %>
+                 </em>
+             </p>
+    <%- page.content %>
+    <%- partial('_partial/comments') %>
+</div>
+</article>

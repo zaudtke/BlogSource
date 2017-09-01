@@ -1,4 +1,10 @@
 SiteSource
 ==========
 Source For my site
-v2
+
+Version 2 Ideas:
+
+* Drop DocPad
+* Use Hexo
+* New Theme
+* Keep Up To Date!

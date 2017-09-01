@@ -1,9 +1,12 @@
-## JetBrains IDE: WebStorm
-.idea/
 
-## Docpad
-out/
 
 #npm modules
 node_modules/
 
+#Hexo
+.DS_Store
+Thumbs.db
+db.json
+*.log
+public/
+.deploy*/

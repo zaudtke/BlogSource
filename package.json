@@ -1,34 +1,29 @@
 {
-  "name": "no-skeleton.docpad",
-  "version": "0.1.0",
-  "description": "New DocPad project without using a skeleton",
-  "engines": {
-    "node": "6.1.0",
-    "npm": "3.8.6"
+  "name": "zaudtk.github.io",
+  "version": "0.2.0",
+  "description": "Source Code for zaudtke.com",
+  "hexo": {
+    "version": "3.3.8"
   },
   "dependencies": {
-    "docpad": "~6.79.0",
-    "docpad-plugin-cleanurls": "~2.8.1",
-    "docpad-plugin-coffeekup": "~2.2.0",
-    "docpad-plugin-coffeescript": "~2.5.0",
-    "docpad-plugin-eco": "~2.1.0",
-    "docpad-plugin-ghpages": "~2.4.4",
-    "docpad-plugin-grunt": "~2.2.1",
-    "docpad-plugin-less": "~2.4.1",
-    "docpad-plugin-marked": "~2.3.0",
-    "docpad-plugin-partials": "~2.9.2",
-    "grunt": "^1.0.1",
-    "moment": "^2.17.1",
-    "safeps": "^6.3.0"
+    "hexo": "^3.2.0",
+    "hexo-deployer-git": "^0.3.1",
+    "hexo-generator-archive": "^0.1.4",
+    "hexo-generator-category": "^0.1.3",
+    "hexo-generator-feed": "^1.2.0",
+    "hexo-generator-index": "^0.2.0",
+    "hexo-generator-tag": "^0.2.0",
+    "hexo-renderer-ejs": "^0.3.0",
+    "hexo-renderer-marked": "^0.3.0",
+    "hexo-renderer-stylus": "^0.3.1",
+    "hexo-server": "^0.2.0"
   },
-  "main": "node_modules/docpad/bin/docpad-server",
+  "main": "",
   "scripts": {
-    "start": "node_modules/docpad/bin/docpad-server",
-    "grunt": "grunt",
-    "docpad" : "docpad"
-  },
-  "devDependencies": {
-    "grunt-contrib-cssmin": "^1.0.2",
-    "grunt-contrib-clean" : "1.0.0"
+    "start": "",
+    "minify-normalize": "cleancss -o themes/v2/source/css/normalize.min.css themes/v2/source/css/normalize.css",
+    "minify-site": "cleancss -o themes/v2/source/css/site.min.css themes/v2/source/css/site.css",
+    "minify-skeleton": "cleancss -o themes/v2/source/css/skeleton.min.css themes/v2/source/css/skeleton.css",
+    "minify": "npm run minify-normalize && npm run minify-site && npm run minify-skeleton"
   }
 }

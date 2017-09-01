@@ -1,0 +1,105 @@
+<%
+    var title = page.title;
+    if (is_home()){
+        title = config.title;
+    }
+    
+    if(is_archive()){
+        title = "Archives";
+        if (is_year()){
+            title += ( " " + page.year);
+        }
+        if(is_month()){
+            title = "Archives " + getMonth(page.month) + " " + page.year;
+        }
+    }
+    if(is_tag()){
+        title = page.tag;
+    }
+    if(is_category()){
+        title = page.category;
+    }
+    if(is_post()){
+        title = page.title;
+    }
+    function getMonth(m){
+        switch(m){
+            case 1: 
+                return "January ";
+                break;
+            case 2:
+                return "February ";
+                break;
+            case 3:
+                return "March ";
+                break;
+            case 4:
+                return "April ";
+                break;
+            case 5:
+                return "May ";
+                break;
+            case 6:
+                return "June ";
+                break;
+            case 7:
+                return "July ";
+                break;
+            case 8:
+                return "August ";
+                break;
+            case 9:
+                return "September ";
+                break;
+            case 10:
+                return "October ";
+                break;
+            case 11: 
+                return "November ";
+                break;
+            case 12:
+                return "December";
+                break;
+            default:
+                return "";
+                break;
+        }
+    }
+   function prettifyUrl(){
+        return url.substring(0,url.lastIndexOf("/"));
+   }
+%>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="description" content="<%- config.description %>">
+    <meta name="author" content="<%- config.author %>">
+    
+    <meta property="og:title" content="<%= title %>">
+    <meta property="og:url" content="<%= prettifyUrl()  %>">
+    <meta property="og:description" content="<%= page.excerpt || config.description %>">
+    <meta property="og:site_name" content="<%- config.title %>">
+
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="<%= title %>">
+    <meta name="twitter:description" content="<%= page.excerpt || config.description %>">
+    <meta name="twitter:url" content="<%= prettifyUrl()  %>">
+    <meta name="twitter:site" content="@alzaudtke">
+
+
+
+    <title><%= title %></title>
+    <link rel="icon" href="/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|PT+Serif:400,400italic" rel="stylesheet" type="text/css">
+
+    <%- css('css/normalize.min.css') %>
+    <%- css('css/skeleton.min.css') %>
+    <%- css('css/site.min.css') %>
+    <%- css('font-awesome-4.7.0/css/font-awesome.min.css') %>
+    
+</head>  

@@ -1,0 +1,13 @@
+<%- partial('_partial/hero', {image: "hero.jpg", header: config.description, subtitle:"...From Knoxville, TN"}) %>         
+
+<article>
+<div class="container">
+
+    <% page.posts.each(function(item){ %>
+        <%- partial('_partial/article-excerpt', {item: item}) %>
+    <% }); %>
+
+    <%- partial('_partial/pagination') %>
+
+</div>
+</article>

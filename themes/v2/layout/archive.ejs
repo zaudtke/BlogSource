@@ -1,0 +1,71 @@
+
+<%
+var title = '';
+if (page.category) title = page.category;
+if (page.tag) title = page.tag;
+if (page.archive){
+    if (page.year) title =  (page.month ? getMonth(page.month) : '') + page.year;
+    else title = "Archives";
+}
+
+function getMonth(m){
+    switch(m){
+        case 1: 
+            return "January ";
+            break;
+        case 2:
+            return "February ";
+            break;
+        case 3:
+            return "March ";
+            break;
+        case 4:
+            return "April ";
+            break;
+        case 5:
+            return "May ";
+            break;
+        case 6:
+            return "June ";
+            break;
+        case 7:
+            return "July ";
+            break;
+        case 8:
+            return "August ";
+            break;
+        case 9:
+            return "September ";
+            break;
+        case 10:
+            return "October ";
+            break;
+        case 11: 
+            return "November ";
+            break;
+        case 12:
+            return "December";
+            break;
+        default:
+            return "";
+            break;
+    }
+}
+
+%>
+
+<%- partial('_partial/hero', {image: "hero.jpg", header: title, subtitle:"...posts"}) %>         
+
+
+
+<article>
+        <div class="container">
+        
+
+<% page.posts.each(function(item){ %>
+<%- partial('_partial/article-excerpt', {item: item}) %>
+<% }); %>
+<%- partial('_partial/pagination') %>
+
+</div>
+</article>
