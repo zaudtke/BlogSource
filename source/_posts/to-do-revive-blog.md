@@ -13,9 +13,9 @@ Well it's been just over 3 years since I launched this blog.  In that time I wro
 Since then, I've given 1 public presentation and numerous internal (at work) presentations.  I'm hoping to be able to do more of these, and am hoping that by keeping up with this project, it will help me with that goal.
 
 The new setup is still a static site, but I switched generators.  Bootstrap is also history.  The site is still hosted on GitHub Pages, and run through CloudFlare.  The "new" tech stack is as follows:
-* [Hexo]("https://hexo.io) For Site Generation on top of Node.js.  This uses ejs files, which were much easier for me to grok.
-* [Skeleton]("http://getskeleton.com) - CSS Grid Framework, with a few extras.
-* [clean-css-cli]("https://www.npmjs.com/package/clean-css-cli") Only used when I change my css files.  Not part of a build process.
+* [Hexo](https://hexo.io) For Site Generation on top of Node.js.  This uses ejs files, which were much easier for me to grok.
+* [Skeleton](http://getskeleton.com) - CSS Grid Framework, with a few extras.
+* [clean-css-cli](https://www.npmjs.com/package/clean-css-cli) Only used when I change my css files.  Not part of a build process.
 
 That's it.  I built my own custom Hexo theme, tweaked some hexo settings, and got started.
 
