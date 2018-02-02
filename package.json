@@ -20,7 +20,7 @@
   },
   "main": "",
   "scripts": {
-    "start": "hexo servegit",
+    "start": "hexo server",
     "build": "npm run minify && hexo generate",
     "deploy": "hexo deploy",
     "minify-normalize": "cleancss -o themes/v2/source/css/normalize.min.css themes/v2/source/css/normalize.css",
