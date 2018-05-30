@@ -16,6 +16,19 @@ _Photo courtesy of [ThatConference](https://www.thatconference.com) and [martine
 
 ---
 
+### IOT IN AZURE - A JOURNEY TO PRODUCTION
+Microsoft Azure offers a lot of services for building cloud solutions.  So many in fact, that choosing the right tool for the job at times can be difficult.  Other times, the selected service may seem right at first, but turns out to not work once you dig in a little further.  So many online demos are overly simplified, this project was anything but.
+
+In this session you'll see:
+* Where we started and why we needed/wanted Azure
+* PaaS offerings selected and rejected and why
+* Difficulties we encountered and how we resolved them
+* Future thoughts on things implemented, or yet to come
+
+Although this particular solution is IoT, there are only a couple of services selected that are specific to IoT.  So, other than those couple of services, the rest of discussion could apply to anything you wanted to put in the Cloud.
+
+[That Conference](https://www.thatconference.com) August 7, 2018
+
 #### KISS The Forgotten Acryonym
 We all know that KISS stands for Keep It Simple, Stupid.  Somewhere along the line I think this acronym has become the forgotten acronym of development.
 
@@ -29,7 +42,7 @@ Now we start hearing phrases like "but we might…", "in the future…", "with t
 
 In this session we'll look at some things we do as developers that make things difficult on ourselves and how to avoid them.  We'll look at the balance of laying out an architecture before we start, and over doing it.  We will examine the need to take a look at what the true purposes of the code we're writing is for.  We will talk about why we feel the need to over complicate code.
 
-[That Conference](https://thatconference.com) August 9, 2017
+[That Conference](https://www.thatconference.com) August 9, 2017
 
 ---
 
@@ -39,7 +52,7 @@ Messaging systems are not new. You may even be using one in some fashion already
 This session will introduce you to the how and why of using a message queue. We will start out looking at some common patterns with message queues, see some simple demonstrations of them, then look at some "real world" problems and how they can be solved with a message queue.
 
 [Twin Cities Code Camp 18](https://twincitiescodecamp.com) April 25, 2015
-[That Conference](https://thatconference.com) August 11, 2015
+[That Conference](https://www.thatconference.com) August 11, 2015
 
 ---
 
