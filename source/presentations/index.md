@@ -16,7 +16,7 @@ _Photo courtesy of [ThatConference](https://www.thatconference.com) and [martine
 
 ---
 
-##### IOT IN AZURE - A JOURNEY TO PRODUCTION
+#### IOT IN AZURE - A JOURNEY TO PRODUCTION
 Microsoft Azure offers a lot of services for building cloud solutions.  So many in fact, that choosing the right tool for the job at times can be difficult.  Other times, the selected service may seem right at first, but turns out to not work once you dig in a little further.  So many online demos are overly simplified, this project was anything but.
 
 In this session you'll see:
