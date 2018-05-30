@@ -27,5 +27,8 @@
     "minify-site": "cleancss -o themes/v2/source/css/site.min.css themes/v2/source/css/site.css",
     "minify-skeleton": "cleancss -o themes/v2/source/css/skeleton.min.css themes/v2/source/css/skeleton.css",
     "minify": "npm run minify-normalize && npm run minify-site && npm run minify-skeleton"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^4.1.11"
   }
 }
