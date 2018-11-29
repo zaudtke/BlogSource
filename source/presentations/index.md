@@ -2,17 +2,13 @@
 title: Presentations
 heroheader: Presentations
 date: 2017-08-29 13:34:14
-herourl: al.jpg
+herourl: hero.jpg
 herosubheader: ...that I have given
 ---
 
-<div class="muted">
-_Photo courtesy of [ThatConference](https://www.thatconference.com) and [martinezMedia](http://www.martinezmedia.net/) https://www.flickr.com/photos/thatconference/35703480233/in/album-72157684772275604/_
-</div>
-
 #### Online Interviews
 [Channel 9](https://channel9.msdn.com/events/Seth-on-the-Road/That-Conference-2015/T030) - Understanding Message Queues
-[MS Dev Show](http://msdevshow.com/2017/08/that-conference-2017-part-1/) - That Conference KISS Talk (Around the 50 minute mark)
+[MS Dev Show](http://msdevshow.com/2017/08/that-conference-2017-part-1/) - KISS Talk (Around the 50 minute mark)
 
 ---
 
@@ -27,7 +23,9 @@ In this session you'll see:
 
 Although this particular solution is IoT, there are only a couple of services selected that are specific to IoT.  So, other than those couple of services, the rest of discussion could apply to anything you wanted to put in the Cloud.
 
+[Knox .NET](https://www.meetup.com/Knox-NET/) July 9, 2018
 [That Conference](https://www.thatconference.com) August 7, 2018
+[DevSpace](https://www.devspaceconf.com/) Ocober 13, 2018
 
 #### KISS The Forgotten Acryonym
 We all know that KISS stands for Keep It Simple, Stupid.  Somewhere along the line I think this acronym has become the forgotten acronym of development.

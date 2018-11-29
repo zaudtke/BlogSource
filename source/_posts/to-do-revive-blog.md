@@ -1,6 +1,6 @@
 ---
 title: To Do - Revive Blog
-herourl: todo.jpeg
+herourl: hero.jpg
 heroheader: To Do
 comments: true
 date: 2017-08-31 15:23:18

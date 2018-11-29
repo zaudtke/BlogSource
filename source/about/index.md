@@ -1,7 +1,7 @@
 ---
 title: About Me
 date: 2017-08-28
-herourl: al2.jpg
+herourl: hero.jpg
 heroheader: You can call me Al
 herosubheader: ... but I hate that song
 ---
