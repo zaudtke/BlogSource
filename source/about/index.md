@@ -18,9 +18,8 @@ My hope is that the more I learn, I will try to blog more, and hopefully up more
 
 Happy Coding
 
-<div class="additionalLinks">
+
 <i class="fa fa-desktop" aria-hiddent="true"></i> [Presentations](../presentations/)
 <i class="fa fa-twitter" aria-hidden="true"></i> [Twitter](https://twitter.com/AlZaudtke)
 <i class="fa fa-github" aria-hidden="true"></i> [ GitHub](https://github.com/zaudtke)
 <i class="fa fa-linkedin-square" aria-hidden="true"></i> [LinkedIn](https://www.linkedin.com/in/alzaudtke/)
-</div>
